@@ -19,7 +19,10 @@ ERRORI conseguenti
 - Boot lento: provare a disabilitare da bios/uefi il safe boot
 
 - servizio mysql non parte
-  sudo apt autoremove
+eseguire:
+  sudo apt-get purge  mysql-server-8.0
+rispondere NO alla richiesta d rimozione dei database
+  sudo apt-get install  mysql-server-8.0
   
 
 - GNOME (shell grafica) non visualizza le cartelle della Scrivania,
