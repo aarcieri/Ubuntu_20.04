@@ -1,0 +1,19 @@
+  - Upgrade da 18.04 a  20.04,
+    eseguire i seguenti comandi:
+   sudo apt update
+   sudo apt upgrade
+   sudo apt dist-upgrade
+   sudo do-release-upgrade -d
+   sudo apt-get update && sudo apt-get upgrade
+   sudo apt autoremove
+   sudo do-release-upgrade -d
+
+ERRORI conseguenti
+----------------
+- python non trova pip, pygame
+  eseguire l'installazioe di pip e poi di pygame
+
+- Boot lento: provare a disabilitare da bios/uefi il safe boot
+
+- GNOME (shell grafica) non visualizza le cartelle della Scrivania,
+  eseguire: sudo apt install gnome-shell-extension-desktop-icons
