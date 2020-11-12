@@ -1,0 +1,5 @@
+You can download the deb package for Eoan Ermine from MySQL archives: 
+  http://repo.mysql.com/apt/ubuntu/pool/mysql-tools/m/mysql-workbench-community/
+  
+Dalla stessa dir dove scaricato il pachetto:
+  sudo apt install ./mysql-workbench-community_8.0.22-1ubuntu20.04_amd64.deb
