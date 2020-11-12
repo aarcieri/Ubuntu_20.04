@@ -18,5 +18,9 @@ ERRORI conseguenti
 
 - Boot lento: provare a disabilitare da bios/uefi il safe boot
 
+- servizio mysql non parte
+  sudo apt autoremove
+  
+
 - GNOME (shell grafica) non visualizza le cartelle della Scrivania,
   eseguire: sudo apt install gnome-shell-extension-desktop-icons
