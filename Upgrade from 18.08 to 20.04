@@ -19,6 +19,11 @@ ERRORI conseguenti
   eseguire l'installazioe di pip e poi di pygame
 
 - Boot lento: provare a disabilitare da bios/uefi il safe boot
+  eliminare la splash screen:
+  aprire: sudo nano /etc/default/grub
+  modificare: GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"
+  aggiornare grub: sudo update-grub
+  fare il restart
 
 - servizio mysql non parte
 eseguire:
