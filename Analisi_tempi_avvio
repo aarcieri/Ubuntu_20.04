@@ -1,0 +1,4 @@
+Per analizzare i tempi di avvio:
+   systemd-analyze 
+   cat /etc/fstab
+   systemd-analyze critical-chain
