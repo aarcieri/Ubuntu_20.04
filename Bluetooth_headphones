@@ -1,0 +1,13 @@
+comando
+    dmesg | grep -i 'bluetooth'
+per vedere io device cercato, una riga del tipo 
+    Bluetooth: hci0: BCM: Patch brcm/BCM43142A0-105b-e065.hcd not found
+comando
+    ls /lib/firmware/brcm/*.hcd
+si vede nome diverso da quello cercato dal sistema
+    /lib/firmware/brcm/BCM-0bb4-0306.hcd
+fare una copia rinominado il file
+  sudo cp /lib/firmware/brcm/BCM-0bb4-0306.hcd /lib/firmware/brcm/BCM43142A0-105b-e065.hcd 
+riavviare
+  
+  
